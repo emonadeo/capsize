@@ -28,8 +28,7 @@
     "metrics:extract": "pnpm %metrics extract",
     "metrics:generate": "pnpm %metrics generate",
     "metrics:download": "pnpm %metrics download",
-    "unpack:generate": "pnpm --filter=@capsizecss/unpack generate",
-    "prepare": "pnpm dev && (is-ci || husky install)"
+    "unpack:generate": "pnpm --filter=@capsizecss/unpack generate"
   },
   "author": {
     "name": "Michael Taranto",
